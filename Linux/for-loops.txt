@@ -1,0 +1,49 @@
+#1/bin/bash
+
+# LIST OF VARIABLES BEING CALLED IN THE SCRIPT
+#
+#months=('jan' 'feb' 'mar' 'apr')
+#days=('mon' 'tue' 'wed' 'thur' 'fri' 'sat' 'sun')
+
+# FIRST PORTION DELCARING THE MONTH
+#for month in ${months[@]};
+#do
+#	echo $month
+#done
+
+
+# SECOND PORTION INSTRUCTING WHAT TO DO ON ANY DAY
+#for day in ${days[@]};
+#do
+#	if [ $day = 'sun' ] || [ $day = 'sat' ]
+#	then
+#		echo "It is $day.  Take it easy."
+#	else
+#		echo "It is $day.  Get to work."
+#	fi
+#done
+
+### third list all directories
+#for file in $(ls);
+#do
+#	ls -lah $file
+#done
+
+#states=('VA' 'SC' 'NC' 'CT' 'HI')
+#
+#for state in ${states[@]};
+#do
+#if [ $state == 'HI' ];
+#then echo "Hawaii is the best!"
+#else echo "I'm not fond of Hawaii."
+#fi
+#done
+#
+#nums=('0' '1' '2' '3' '4' '5' '6' '7' '8' '9')
+#
+#for num in ${nums[@]};
+#do
+#if [ $num = 3 ] || [ $num = 5 ] || [ $num = 7 ];
+#then echo "$num"
+#fi
+#done

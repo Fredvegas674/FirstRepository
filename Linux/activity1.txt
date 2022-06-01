@@ -1,0 +1,16 @@
+#!/bin/bash
+my_list=(a b c d e f)
+$ echo ${my_list[0]}
+a
+$ echo ${my_list[4]}
+e
+$ echo ${my_list[@]}
+a b c d e f
+
+for num in {0..5};
+do
+     if [ $num = 1 ] || [ $num = 4 ]
+     then 
+       echo $num
+     fi
+    done
